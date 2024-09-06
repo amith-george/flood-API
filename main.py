@@ -52,6 +52,6 @@ def flood_pred(input_parameters : model_input):
 
 
     if prediction[0] == 0:
-        return 'The area is not prone to flooding'
+        return 0
     else:
-        return 'The area is prone to flooding'
+        return 1
